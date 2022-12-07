@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="#$OPvUU7p5VGok*(kGb5">motor speed</variable></variables><block type="pxt-on-start" id="hYf%B8C~%:7bePIpHMkz" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="?#`=86N0HYZCc5DV{7@F"><field name="VAR" id="#$OPvUU7p5VGok*(kGb5">motor speed</field><value name="VALUE"><shadow type="math_number" id="Cs+kUvR]ltDKl.J.7,!4"><field name="NUM">50</field></shadow></value></block></statement></block><block type="device_button_event" id="j?fNgG)LnXos#g)[~1;4" x="165" y="202"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="motion_drive_straight" id="|R?qNr@|oOF4zE-$?h#J"><value name="speed"><shadow type="math_number_minmax"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">50</field></shadow><block type="variables_get" id="PQxm;2KyFAfEQ{XNvp-Y"><field name="VAR" id="#$OPvUU7p5VGok*(kGb5">motor speed</field></block></value><next><block type="device_show_leds" id="2N[=Fj`9,`ur10ZQ*r1R"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="k{Y5SQ!c-oAzyI/F*f.e"><value name="pause"><shadow type="timePicker" id="{n[)f9i`7L@4f=Mw3%qY"><field name="ms">2000</field></shadow></value><next><block type="motion_turn_left" id="0iAKBKjV|P^$8=v{Bx5="><value name="speed"><shadow type="math_number_minmax"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">0</field></shadow><block type="variables_get" id="@IEa75Y||Go8O*evdaf["><field name="VAR" id="#$OPvUU7p5VGok*(kGb5">motor speed</field></block></value><next><block type="device_show_leds" id="0;MMQ++4,U)7%y}e-D/v"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="yqEC,U+z^~Yz![TqwVQo"><value name="pause"><shadow type="timePicker" id="]TZ1?Gg9F}g814.=S[rD"><field name="ms">100</field></shadow></value><next><block type="motion_drive_straight" id="h5Ehh/xr,qK854^tpv~("><value name="speed"><shadow type="math_number_minmax"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">0</field></shadow><block type="variables_get" id=":E]O4c@f=o,xYm)^[583"><field name="VAR" id="#$OPvUU7p5VGok*(kGb5">motor speed</field></block></value><next><block type="device_show_leds" id="$JN|2X/AeGOa/;^}^BiR"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="whR/C2z6%3vjEJB#a3jN"><value name="pause"><shadow type="timePicker" id=")sTof9[S@7Ov;k|N2ivk"><field name="ms">2000</field></shadow></value><next><block type="motion_turn_right" id="%hK=q8G*.~c5=K=MvMol"><value name="speed"><shadow type="math_number_minmax"><mutation min="0" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">0</field></shadow><block type="variables_get" id="MAP?(7R1g4b-r1`ouQ3b"><field name="VAR" id="#$OPvUU7p5VGok*(kGb5">motor speed</field></block></value><next><block type="device_show_leds" id="sR(#JXqF/Y?#S1!QF)7E"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="^Ac.C31V!np36KG@$Tq:"><value name="pause"><shadow type="timePicker" id="$QpQ%hkDpsxvz|dKUFt+"><field name="ms">100</field></shadow></value><next><block type="motion_drive_straight" id="|3J}~.CJj:)9~px~T4;`"><value name="speed"><shadow type="math_number_minmax"><mutation min="-100" max="100" label="Speed" precision="0"></mutation><field name="SLIDER">0</field></shadow><block type="variables_get" id="Ml*khGhYhzn;RZRqT]-b"><field name="VAR" id="#$OPvUU7p5VGok*(kGb5">motor speed</field></block></value><next><block type="device_show_leds" id="zA8$JQn`A2OMeO[!^7m/"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="X;RZX^],V{5Y-YSsy-zX"><value name="pause"><shadow type="timePicker" id="=F25!E?.%|u[p@$Qpc*m"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="!9)*~lR%$]0X~U9{]y^C"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="motion_stop" id=")QNPE7z*?-m2#Oa~1+J%"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
